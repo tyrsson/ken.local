@@ -1,0 +1,16 @@
+{
+    "require": {
+        "laminas/laminas-servicemanager": "3.22.0",
+        "laminas/laminas-config-aggregator": "^1.17",
+        "laminas/laminas-eventmanager": "^3.13",
+        "axleus/axleus-debug": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Event\\": "src/Event/src",
+            "App\\": "src/App/src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
